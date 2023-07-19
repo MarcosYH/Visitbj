@@ -47,6 +47,9 @@ export default {
             <li class="nav-item mx-5" :class="{ 'active': activeItem === 'history' }">
               <RouterLink to="/history" class="nav-link" @click="setActiveItem('history')">Nos histoires</RouterLink>
             </li>
+          <li class="nav-item mx-5" :class="{ 'active': activeItem === 'contact' }">
+              <RouterLink to="/contact" class="nav-link" @click="setActiveItem('contact')">Contact</RouterLink>
+            </li>
           </ul>
           <div class="navbouton">
             <button  class="btn btn-orange2 mx-4">Se connecter</button>

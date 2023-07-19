@@ -2,6 +2,7 @@
 
 import HeaderDiscover from '../components/HeaderDiscover.vue'
 import AboutDiscover from '../components/AboutDiscover.vue';
+import PackDiscover from '../components/PackDiscover.vue'
 
 export default {
   data() {
@@ -12,7 +13,7 @@ export default {
   components: {
     HeaderDiscover,
     AboutDiscover,
-   
+   PackDiscover
   }
   
 };
@@ -22,6 +23,8 @@ export default {
    <div >
    <HeaderDiscover/> 
    <AboutDiscover/>
+   <PackDiscover/>
+
    </div>
    
 </template>
